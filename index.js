@@ -7,7 +7,7 @@ const app = express();
 
 // Faqat api.flexenergy.uz dan so'rovlarni qabul qilamiz
 app.use(cors({
-  origin: ["http://localhost:5173", "https://flexenergy.uz"],
+  origin: ["http://localhost:5173", "https://www.flexenergy.uz"],
   methods: ["GET", "POST"],
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"],
