@@ -6,9 +6,9 @@ const cors = require('cors');
 const app = express();
 
 // Faqat api.flexenergy.uz dan so'rovlarni qabul qilamiz
-app.use(cors({
-  origin: ['https://api.flexenergy.uz', 'https://www.flexenergy.uz']
-}));
+app.use(cors(
+  // {origin: ['https://api.flexenergy.uz', 'https://www.flexenergy.uz']}
+));
 
 app.use(bodyParser.json());
 
